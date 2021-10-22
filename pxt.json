@@ -1,6 +1,6 @@
 {
     "name": "pxt-KittenAirQuality",
-    "description": "",
+    "description": "Air Quality Sensor for KittenBot",
     "dependencies": {
         "core": "*",
         "radio": "*",
