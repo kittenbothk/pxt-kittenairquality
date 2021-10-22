@@ -12,7 +12,7 @@ let co2now = 0
 	//% blockId=cali block="Calibrate, Pin %pin"
 	//% group="Air Quality Sensor" weight=120
 	export function cali(pin: AnalogPin): number{
-		
+		return co2zero
 	}
 
 	//% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
