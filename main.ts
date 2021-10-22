@@ -8,7 +8,7 @@ Air Quality Sensor Extension designed for Micro:bit
 namespace KittenAirQuality {
 let co2zero = 55
 let co2now = 0
-    //% blockId=getPPM block="Get Air Quality PPM, Pin &pin"
+    //% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
     //% group="Air Quality Sensor" weight=100
     export function getPPM(pin: AnalogPin) {
 	    co2now = 0
