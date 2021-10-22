@@ -16,7 +16,6 @@ MakeCode Extension for Air Quality Sensor, by Anson from Kittenbot HK.
 
 ![各個程式積木渲染後的視圖](https://github.com/kittenbothk/pxt-kittenairquality/raw/master/.github/makecode/blocks.png)
 
-#### 中繼資料 (用於搜索、渲染)
+### Sample Program
 
-* for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+<div style="position:relative;height:calc(300px + 5em);width:100%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---codeembed#pub:_fKjd2mERJ3HA" allowfullscreen="allowfullscreen" frameborder="0" sandbox="allow-scripts allow-same-origin"></iframe></div>
