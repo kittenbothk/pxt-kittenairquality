@@ -11,7 +11,7 @@ let co2now = 0
 
 	//% blockId=cali block="Calibrate, Pin %pin"
 	//% group="Air Quality Sensor" weight=120
-	export function cali(pin: AnalogPin): number{
+	export function cali(pin: AnalogPin){
 		co2now = 0
 		for(let i = 0; i < 10; i++) {
 			co2now += pins.analogReadPin(pin)
@@ -19,7 +19,6 @@ let co2now = 0
 		}
 		let co2raw = co2now / 10
 		co2zero=Math.abs(co2raw-400)
-		return co2zero
 	}
 
 	//% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
