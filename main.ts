@@ -9,7 +9,7 @@ namespace KittenAirQuality {
 let co2zero = 55
 let co2now = 0
 
-	//% blockId=cali block="Calibrate, Pin %pin"
+	//% blockId=calibrate block="Calibrate, Pin %pin"
 	//% group="Air Quality Sensor" weight=120
 	//% advanced=true
 	export function cali(pin: AnalogPin){
@@ -23,7 +23,7 @@ let co2now = 0
 		basic.showNumber(co2zero)
 	}
 
-	//% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
+	//% blockId=getPPMvalue block="Get Air Quality PPM, Pin %pin"
 	//% group="Air Quality Sensor" weight=100
 	export function getPPM(pin: AnalogPin): number {
 		co2now = 0
