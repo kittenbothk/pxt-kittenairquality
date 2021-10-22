@@ -12,7 +12,7 @@ let co2now = 0
     //% group="Air Quality Sensor" weight=100
     export function getPPM(pin: AnalogPin) {
 	    co2now = 0
-	    for(int i = 0; i < 10; i++){
+	    for(int i = 0; i < 10; i++) {
 	    	co2now += pins.analogReadPin(pin)
 	    	basic.pause(200)
 	    }
