@@ -1,6 +1,6 @@
 {
-  "KittenAirQuality.cali|block": "校準感應器|%pin",
-  "KittenAirQuality.getPPM|block": "獲取空氣質素|%pin",
-  "{id:category}KittenAirQuality": "空氣質素感應器",
-  "{id:group}Air Quality Sensor": "空氣質素感應器"
+  "KittenAirQuality.cali|block": "校准感应器|%pin",
+  "KittenAirQuality.getPPM|block": "获取空气质素|%pin",
+  "{id:category}KittenAirQuality": "空气质素感应器",
+  "{id:group}Air Quality Sensor": "空气质素感应器"
 }
