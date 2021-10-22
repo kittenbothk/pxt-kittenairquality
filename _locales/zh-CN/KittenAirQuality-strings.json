@@ -1,11 +1,6 @@
 {
-  "KittenTurbidity.water_temp|block": "获取水温|%p",
-  "KittenTurbidity.Calibrate|block": "校准浊度感应器|%t, %pin",
-  "KittenTurbidity.Calibrate_notemp|block": "校准浊度感应器|%pin",
-  "KittenTurbidity.get_ntup|block": "获取NTU|%pin",
-  "{id:category}KittenTurbidity": "汙水浊度感应器",
-  "{id:group}KittenTurbidity": "汙水浊度感应器",
-  "{id:group}Water Temperature Sensor": "水温感应器",
-  "{id:group}Turbidity Sensor Calibration": "校正汙水浊度感应器",
-  "{id:group}Turbidity Sensor NTU": "汙水浊度感应器"
+  "KittenAirQuality.cali|block": "校準感應器|%pin",
+  "KittenAirQuality.getPPM|block": "獲取空氣質素|%pin",
+  "{id:category}KittenAirQuality": "空氣質素感應器",
+  "{id:group}Air Quality Sensor": "空氣質素感應器"
 }
