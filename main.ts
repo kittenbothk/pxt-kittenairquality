@@ -3,11 +3,17 @@ By Anson From KittenBotHK
 Air Quality Sensor Extension designed for Micro:bit
 */
 
-//% color="#76dbb1" weight=10 icon="\uf2ce"
+//% color="#24d3ff" weight=10 icon="\uf2ce"
 //% groups='["KittenAirQuality"]'
 namespace KittenAirQuality {
 let co2zero = 55
 let co2now = 0
+
+	//% blockId=cali block="Calibrate, Pin %pin"
+	//% group="Air Quality Sensor" weight=120
+	export function cali(pin: AnalogPin): number{
+		
+	}
 
 	//% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
 	//% group="Air Quality Sensor" weight=100
@@ -19,6 +25,6 @@ let co2now = 0
 		}
 		let co2raw = co2now / 10
 		let co2ppm = co2raw - co2zero
-		return co2ppm
+		return Math.round(co2ppm)
 	}
 }
