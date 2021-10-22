@@ -9,7 +9,9 @@
     "files": [
         "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "locales_/zh-TW/KittenAirQuality-strings.json",
+        "locales_/zh-CN/KittenAirQuality-strings.json"
     ],
     "testFiles": [
         "test.ts"
