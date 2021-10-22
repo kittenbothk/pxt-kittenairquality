@@ -1,5 +1,6 @@
 {
     "name": "pxt-KittenAirQuality",
+    "version": "0.0.3",
     "description": "Air Quality Sensor for KittenBot",
     "dependencies": {
         "core": "*",
