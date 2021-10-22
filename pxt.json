@@ -10,8 +10,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "locales_/zh-TW/KittenAirQuality-strings.json",
-        "locales_/zh-CN/KittenAirQuality-strings.json"
+        "_locales/zh-TW/KittenAirQuality-strings.json",
+        "_locales/zh-CN/KittenAirQuality-strings.json"
     ],
     "testFiles": [
         "test.ts"
