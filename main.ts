@@ -20,6 +20,7 @@ let co2now = 0
 		}
 		let co2raw = co2now / 10
 		co2zero=Math.abs(co2raw-400)
+		basic.showNumber(co2zero)
 	}
 
 	//% blockId=getPPM block="Get Air Quality PPM, Pin %pin"
