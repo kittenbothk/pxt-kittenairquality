@@ -1,3 +1,5 @@
+basic.pause(200)
+
 /*
 By Anson From KittenBotHK
 Air Quality Sensor Extension designed for Micro:bit
